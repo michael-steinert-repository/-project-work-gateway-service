@@ -3,6 +3,18 @@
 * The Gateway Service provides a Facade for Requests to the Application.
 
 * The running Gateway Service is available at the URL http://localhost:8080.
+
+### Jib Maven Plugin
+
+*Jib is a deamonless Maven Plugin for building Docker and OCI Images for Java Applications.*
+
+* Build an Image with Jib and store it locally
+    * docker login
+    * mvnw clean install -P jib-push-to-local
+
+* Build an Image with Jib and push it to Docker Hub
+    * docker login
+    * mvnw clean install -P jib-push-to-dockerhub
 ___
 
 ## Gateway-Service
