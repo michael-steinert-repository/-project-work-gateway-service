@@ -23,7 +23,7 @@
 		<spring-cloud.version>Hoxton.SR10</spring-cloud.version>
         <start-class>de.share_your_idea.gateway_service.GatewayServiceApplication</start-class>
 		<docker.username>michaelxsteinertxcontainer</docker.username>
-		<app.image.name>service-discovery-image</app.image.name>
+		<app.image.name>gateway-service-image</app.image.name>
 		<app.image.tag>latest</app.image.tag>
 	</properties>
 
